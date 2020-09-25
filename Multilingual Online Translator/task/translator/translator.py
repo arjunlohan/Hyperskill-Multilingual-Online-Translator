@@ -25,7 +25,6 @@ def get_translation(lang_input, lang_output, word):
         my_request = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
     except requests.exceptions.ConnectionError:
         print("Something wrong with your internet connection")
-        exit()
     if not my_request:
         print(f"Sorry, unable to find {word.lower()}")
         exit()
