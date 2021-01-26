@@ -25,7 +25,7 @@ Supported languages include, in alphabetical order:
 
 **1) Input Language**
 
-**2) Output Language**
+**2) Output Language (or enter *all* to translate to all languages)**
 
 **3) Word to be translated**
 
